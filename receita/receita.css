@@ -1,0 +1,50 @@
+*{
+    margin-top: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+h1{
+    margin-top: px;
+}
+header{
+    background-image: url(imagens/cozinha.jpg);
+    border: solid 5px;
+    border-color: orange;
+background-color: rgb(255, 208, 0);
+}
+.h1titulo{
+    color: white;
+    background-color: #f0a500; /* Cor do fundo */
+    margin-top: 15px;
+    margin-bottom: 15px;
+      padding: 10px; /* Espaçamento ao redor do texto */
+      display: inline-block; /* Faz com que o fundo envolva apenas o texto */
+      border-radius: 15px; /* Opcional: deixa os cantos arredondados */
+}
+ol{
+    text-align: center;
+    margin-left: 150px;
+    padding: center;
+        font-size: 30px;
+}
+.borda{
+    background-color: #f0a500;
+}
+.paodequeijo{
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
