@@ -1,5 +1,5 @@
-/* style.css */
-body {
+@media only screen and (max-width: 1100px) {
+  body {
     text-align: center;
     background: linear-gradient(to bottom, blue, white);
     font-family: 'Trebuchet MS';
@@ -8,37 +8,122 @@ body {
   
   img {
     width: 150px;
-    border-radius: 75px;
+    border-radius: 0px;
     margin-top: 20px;
     animation: bounce 2s infinite;
   }
   
   @keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
+  
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
       transform: translateY(0);
     }
+  
     40% {
       transform: translateY(-10px);
     }
+  
     60% {
       transform: translateY(-5px);
     }
   }
   
+h1{
+  font-size: 90px;
+}
+
   h2 {
-    font-size: 24px;
+    font-size: 75px;
   }
   
   a {
     background-color: white;
-    font-size: 20px;
+    font-size: 80px;
     color: rgb(6, 26, 202);
-    padding: 10px;
-    border-radius: 10px;
-    margin: 10px;
+    padding: 60px;
+    border-radius: 200px;
+    margin: 30px 100px;
     display: block;
-    text-decoration: none;
+    text-decoration: dashed;
   }
-.fotoperf{
-border: solid 5px;
+  
+  .fotoperf {
+    width: 600px;
+    border: solid 5px;
+    border-radius: 100%;
+  }
+  
+  #bemvindo {
+    font-weight: bold;
+    font-size: 40px;
+    margin: 0 250px 0 250px;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+body {
+  text-align: center;
+  background: linear-gradient(to bottom, blue, white);
+  font-family: 'Trebuchet MS';
+  color: white;
+}
+
+img {
+  width: 150px;
+  border-radius: 75px;
+  margin-top: 20px;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+
+  40% {
+    transform: translateY(-10px);
+  }
+
+  60% {
+    transform: translateY(-5px);
+  }
+}
+h1{
+  font-size: 50px;
+}
+h2 {
+  font-size: 40px;
+}
+
+a {
+  background-color: white;
+  font-size: 60px;
+  color: rgb(6, 26, 202);
+  padding: 10px;
+  border-radius: 200px;
+  margin: 30px 100px;
+  display: block;
+  text-decoration: dashed;
+}
+
+.fotoperf {
+  width: 300px;
+  border: solid 5px;
+  border-radius: 100%;
+}
+
+#bemvindo {
+  font-weight: bold;
+  font-size: 35px;
+  margin: 0 250px 0 250px;
+}
 }
